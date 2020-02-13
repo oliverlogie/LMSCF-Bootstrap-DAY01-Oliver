@@ -2,3 +2,35 @@
 	background-color: white;
 	margin: 20px;
 }
+
+.mydropdown{
+	font-size: 25px;
+	cursor:pointer;
+}
+
+.youtubeIMG{
+	width: 110px;
+	height: 55px;
+	cursor:pointer;
+}
+
+.navIMG img{
+	width: 20px;
+	height: 20px;
+	cursor:pointer;
+	float: right;
+}
+
+.userIMG img{
+	width: 37px;
+	height: 37px;
+	cursor:pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .searchBar {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none; } }
